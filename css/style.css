@@ -206,7 +206,7 @@ header .content{
     display: flex;
     justify-content: space-between;
     margin: 0px auto;
-    margin-top: 100px;
+    margin-top: 50px;
     width: 90%;
 }
 .progs .leftSide{
@@ -284,9 +284,8 @@ progress::-webkit-progress-value{
     top: -20px;
 }
 .progs .rightSide{
-    margin-top: 40px;
+    margin-top: 30px;
     width: 45%;
-    animation: move 2s infinite  alternate ease-in-out
 }
 .progs .rightSide p{
     border: 1px solid #e6e9eb;
@@ -301,7 +300,44 @@ progress::-webkit-progress-value{
         border: 15px solid transparent;
         border-top: 30px solid #e6e9eb;
         border-bottom:0 ;
-        margin-left: 400px;
+        margin-left: 440px;
+}
+.rightSide .lower {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.rightSide .lower section{
+    padding: 45px 15px;
+}
+.rightSide .lower section h2{
+    font-size: 22px;
+}
+.rightSide .lower section span{
+    color: #EB2B63;
+    font-size: 22px;
+    font-weight: bold;
+}
+.rightSide .lower img{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+.bullets{
+    display: flex;
+    margin-right: 50%;
+}
+.bullets button{
+    margin: 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #e6e9eb;
+    border: #e6e9eb;
+}
+.bullets button:nth-child(2){
+    background-color: #EB2B63;
+    border: #EB2B63;
 }
 /***********************End Header*/
 .plans{
@@ -336,9 +372,10 @@ progress::-webkit-progress-value{
     text-align: center;
     border: 2px solid #EEF6F9;
     background-color: #EEF6F9;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px #716F75;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #716F75;
     margin-top: 50px;
+    padding: 50px;
 }
 .plns button:first-of-type , .plns button:nth-of-type(2){
     background-color: #471887;
@@ -366,8 +403,8 @@ progress::-webkit-progress-value{
     color: #585858;
 }
 .plns p span{
-   font-size: 66px;
-   font-weight: lighter;
+    font-size: 66px;
+    font-weight: lighter;
 }
 .plns button:nth-of-type(2){
     background-color: #EB2B63;
@@ -388,4 +425,131 @@ progress::-webkit-progress-value{
 }
 button:hover{
     cursor: pointer;
+}
+/***********************End Header*/
+.lastimg{
+    margin-top: 100px;
+    background-image: url(../img/banner-bg.jpg.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.lastimg section{
+    width: 80%;
+}
+.lastimg section h3{
+    color: #FFF;
+    font-size: 24px;
+}
+.lastimg section p{ 
+    color: #8C7DAF;
+    font-size: 18px;
+}
+.lastimg button{
+    width:15%;
+    background-color: #EB2B63;
+    border: 1px solid #EB2B63;
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.lastimg button:hover{
+    background-color: #FFF;
+    color: #EB2B63;
+    transition: .5s all ease-in-out;
+}
+/***********************End Header*/
+/***********************End Header*/
+.lastdiv{
+    margin-top: -40px;
+    display: flex;
+    background-color: #200545;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 40px 10px;
+}
+.lastdiv .one{
+    padding-left: 40px;
+    width: 33%;
+}
+.lastdiv .one p{
+    padding: 15px;
+    font-size: 20px;
+    color: #584474;
+}
+.lastdiv .one .icons{
+    display: flex;
+    justify-content: center;
+}
+.lastdiv .one .icons i{
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 12px;
+    font-size: 24px;
+    background-color: #491F70;
+    margin: 5px;
+    border-radius: 50%;
+} 
+.lastdiv .one .icons i:hover{
+    background-color: #EB2B63;
+    cursor: pointer;
+    transition: all .5s ;
+}
+.lastdiv .two{
+    width: 33%;
+    padding: 15px;
+}
+.lastdiv .two h4{
+    font-size: 24px;
+    padding-bottom: 25px;
+}
+.lastdiv .two div{
+    display: flex;
+    justify-content: space-between;
+}
+.lastdiv .two div p{
+    font-size: 20px;
+    color: #584474;
+}
+.lastdiv .three{
+    width: 25%;
+}
+.lastdiv .three h3{ 
+    font-size: 24px;
+    padding: 15px;
+}
+/***********************End Header*/
+footer{
+    background-color:#1B043B;
+    display: flex;
+    font-size: 20px;
+    color: #584474;
+    padding: 25px;
+}
+footer p{
+    width: 70%;
+}
+footer p span{
+    color: #2f5cd6;
+    font-weight: bold;
+}
+footer p span:hover{
+    cursor: pointer;
+}
+footer  nav{
+    display: inline-block;
+    width: 30%;
+}
+footer nav a{
+    text-decoration: none;
+    margin: 4px;
+    color: #584474;
+}
+footer nav a:hover{
+    color: #EB2B63;
+    transition: all .5s ;
 }

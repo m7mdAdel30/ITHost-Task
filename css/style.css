@@ -426,6 +426,9 @@ progress::-webkit-progress-value{
 button:hover{
     cursor: pointer;
 }
+.plns .basic1 , .plns .basic2 , .plns .basic3{
+    cursor: auto;
+}
 /***********************End Header*/
 .lastimg{
     margin-top: 100px;
@@ -484,17 +487,23 @@ button:hover{
     display: flex;
     justify-content: center;
 }
-.lastdiv .one .icons i{
+.lastdiv .one .icons a{
     width: 48px;
     height: 48px;
-    line-height: 48px;
-    padding-left: 12px;
-    font-size: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #491F70;
+    color: #FFF;
     margin: 5px;
     border-radius: 50%;
+}
+.lastdiv .one .icons i{
+
 } 
-.lastdiv .one .icons i:hover{
+.lastdiv .one .icons a:hover{
     background-color: #EB2B63;
     cursor: pointer;
     transition: all .5s ;
@@ -522,6 +531,18 @@ button:hover{
     font-size: 24px;
     padding: 15px;
 }
+.lastdiv .three div{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    padding: 5px;
+    color: #513C6E;
+}
+.lastdiv .three div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
 /***********************End Header*/
 footer{
     background-color:#1B043B;
@@ -533,12 +554,10 @@ footer{
 footer p{
     width: 70%;
 }
-footer p span{
+footer p a{
     color: #2f5cd6;
     font-weight: bold;
-}
-footer p span:hover{
-    cursor: pointer;
+    text-decoration: none;
 }
 footer  nav{
     display: inline-block;
@@ -553,3 +572,4 @@ footer nav a:hover{
     color: #EB2B63;
     transition: all .5s ;
 }
+/***********************End Header*/
